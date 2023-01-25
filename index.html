@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="./assets/image/image-contact.png" alt="Imagem de agenda de contato">
+            <h1>Agenda Contato</h1>
+        </header>
+    
+        <p id="mensagem">mensagem</p>
+        <form id="form-agenda-contato" action="" method="post">
+            <label for="nome">Nome contato</label>
+            <input type="text" id="nome" placeholder="Nome do contato" required>
+
+            <label for="telefone">Telefone contato</label>
+            <input tel="text" id="telefone" placeholder="Telefone contato" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telenfone</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
