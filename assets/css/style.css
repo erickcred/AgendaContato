@@ -100,3 +100,16 @@ table td {
 .input-erro {
     border: solid 1px red;
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
